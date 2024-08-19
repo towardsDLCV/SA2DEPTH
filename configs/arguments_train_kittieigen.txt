@@ -1,0 +1,33 @@
+--mode train
+--model_name SADE_kittieigen
+--encoder large
+--pretrain pretrained_weights/intern_image/internimage_l_22k_192to384.pth
+--dataset kitti
+--data_path datasets/kitti/
+--gt_path datasets/kitti/
+--filenames_file data_splits/eigen_train_files_with_gt.txt
+--batch_size 8
+--num_epochs 50
+--learning_rate 2e-5
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--input_height 352
+--input_width 1120
+--max_depth 80
+--do_kb_crop
+--do_random_rotate
+--degree 1.0
+--log_directory ./models/
+--multiprocessing_distributed
+--dist_url tcp://127.0.0.1:2347
+
+--log_freq 100
+--do_online_eval
+--eval_freq 1000
+--data_path_eval datasets/kitti/
+--gt_path_eval datasets/kitti/
+--filenames_file_eval data_splits/eigen_test_files_with_gt.txt
+--min_depth_eval 1e-3
+--max_depth_eval 80
+--garg_crop
