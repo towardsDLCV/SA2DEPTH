@@ -2,6 +2,7 @@
   
 <h1>SADE</h1>
     
+</div>
 
 ## Installation
 - Creating a conda virtual environment and install packages
