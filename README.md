@@ -1,14 +1,14 @@
 <div align="center">
   
-<h1>SADE</h1>
+<h1>SA2DEPTH</h1>
     
 </div>
 
 ## Installation
 - Creating a conda virtual environment and install packages
 ```bash
-conda create -n SADE python=3.9
-conda activate SADE
+conda create -n SA2DEPTH python=3.9
+conda activate SA2DEPTH
 pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
 pip install matplotlib, tqdm, tensorboardX, timm, mmcv, open3d, einops
 # SSM package
@@ -26,7 +26,7 @@ pip install opencv-python termcolor yacs pyyaml scipy
 
 Then, compile the CUDA operators by executing the following commands:
 ```bash
-cd ./sade/ops_dcnv3
+cd ./sa2depth/ops_dcnv3
 sh ./make.sh
 python test.py
 # All checks must be True, and the time cost should be displayed at the end.
@@ -41,27 +41,27 @@ You can prepare the datasets KITTI and NYUv2 according to [here](https://github.
 ## Training
 Training the NYUv2 model:
 ```
-python sade/train.py configs/arguments_train_nyu.txt
+python sa2depth/train.py configs/arguments_train_nyu.txt
 ```
 
 Training the KITTI_Eigen model:
 ```
-python sade/train.py configs/arguments_train_kittieigen.txt
+python sa2depth/train.py configs/arguments_train_kittieigen.txt
 ```
 
 ## Evaluation
 Evaluate the NYUv2 model:
 ```
-python sade/eval.py configs/arguments_eval_nyu.txt
+python sa2depth/eval.py configs/arguments_eval_nyu.txt
 ```
 
 Evaluate the NYUv2 model on the SUN RGB-D dataset:
 ```
-python sade/eval_sun.py configs/arguments_eval_sun.txt
+python sa2depth/eval_sun.py configs/arguments_eval_sun.txt
 ```
 
 Evaluate the KITTI_Eigen model:
 ```
-python sade/eval.py configs/arguments_eval_kittieigen.txt
+python sa2depth/eval.py configs/arguments_eval_kittieigen.txt
 ```
 
