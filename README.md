@@ -3,7 +3,7 @@
 <h1>SA<sub>2</sub>Depth: Toward Smooth Depth Driven by Selective Attention and Selective Aggregation</h1>
 
 <div>
-    <a target='_blank'>Cheolhoon Park</a><sup>1</sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=5C9TeqgAAAAJ&hl=ko&oi=sra' target='_blank'>Cheolhoon Park</a><sup>1</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=4Q-TY8YAAAAJ&hl=ko' target='_blank'>Woojin Ahn</a><sup>2</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=SIfp2fUAAAAJ&hl=ko&oi=sra' target='_blank'>Hyunduck Choi</a><sup>3,*</sup>&emsp;
 </div>
