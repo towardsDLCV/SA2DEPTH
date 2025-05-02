@@ -8,7 +8,7 @@
     <a href='https://scholar.google.com/citations?user=SIfp2fUAAAAJ&hl=ko&oi=sra' target='_blank'>Hyunduck Choi</a><sup>3,*</sup>&emsp;
 </div>
 <div>
-    <sup>1</sup>Chonnam National University, <sup>2</sup>Korea University, <sup>3</sup>SeoulTech
+    <sup>1</sup>Korea University, <sup>2</sup>Inha University, <sup>3</sup>SeoulTech
 </div>
 
 
