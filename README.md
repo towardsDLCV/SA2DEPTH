@@ -14,7 +14,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="" target='_blank'>Arxiv 2024</a> •
+        • <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046" target='_blank'>IEEE TMM (2025)</a> •
     </h4>
 </div>
 
