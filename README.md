@@ -90,6 +90,22 @@ Evaluate the KITTI_Eigen model:
 python sade/eval.py configs/arguments_eval_kittieigen.txt
 ```
 
+## Models
+| Model | Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
+| ------------ | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |
+|NYUv2 (L)| 0.080 | 0.035 | 0.292 | 0.945 | 0.994 | 0.999 |[[Google]]()|
+|NYUv2 (T)| 0.096 | 0.050 | 0.340 | 0.915 | 0.988 | 0.997 |[[Google]]()|
+|KITTI_Eigen (L)| 0.048 | 0.137 | 2.026 | 0.979 | 0.998 | 0.999 |[[Google]]()|
+|KITTI_Eigen (T)| 0.052 | 0.159 | 2.158 | 0.973 | 0.997 | 0.999 |[[Google]]()|
+
+| Model | SILog | Abs Rel | Sq Rel | iRMSE |
+| ------------ | :---: | :---: | :---: | :---: |
+|KITTI_Official| 9.63 | 7.91 | 1.64 | 10.33|
+
+| Model | Abs Rel | RMSE | a1 | a2 |
+| ------------ | :---: | :---: | :---: | :---: |
+|DIML-CVD | 0.162 | 4.149 | 0.810 | 0.939 |
+
 ## Acknowledgement
 
 Our code is based on the implementation of [NeWCRFs](https://github.com/aliyun/NeWCRFs), [BTS](https://github.com/cleinc/bts) and [IEBins](https://github.com/ShuweiShao/IEBins/tree/main). We thank their excellent works.
