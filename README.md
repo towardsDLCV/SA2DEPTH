@@ -93,10 +93,10 @@ python sade/eval.py configs/arguments_eval_kittieigen.txt
 ## Models
 | Model | Abs Rel | Sq Rel | RMSE | a1 | a2 | a3| Link|
 | ------------ | :---: | :---: | :---: |  :---: |  :---: |  :---: |  :---: |
-|NYUv2 (L)| 0.080 | 0.035 | 0.292 | 0.945 | 0.994 | 0.999 |[[Google]]()|
-|NYUv2 (T)| 0.096 | 0.050 | 0.340 | 0.915 | 0.988 | 0.997 |[[Google]]()|
-|KITTI_Eigen (L)| 0.048 | 0.137 | 2.026 | 0.979 | 0.998 | 0.999 |[[Google]]()|
-|KITTI_Eigen (T)| 0.052 | 0.159 | 2.158 | 0.973 | 0.997 | 0.999 |[[Google]]()|
+|NYUv2 (S)| 0.080 | 0.035 | 0.292 | 0.945 | 0.994 | 0.999 |[[Google]](https://drive.google.com/file/d/1LQCCZ9i9jtcZIF5O5aAbBexWrpal9h9i/view?usp=drive_link)|
+|NYUv2 (T)| 0.096 | 0.050 | 0.340 | 0.915 | 0.988 | 0.997 |[[Google]](https://drive.google.com/file/d/1_08VRPD1dcn7x0Oi4HNEnEu2m3jUaQbR/view?usp=drive_link)|
+|KITTI_Eigen (S)| 0.052 | 0.159 | 2.158 | 0.973 | 0.997 | 0.999 |[[Google]](https://drive.google.com/file/d/1zk-1cJty6kojMBEFmlOtbovJ4SED71cj/view?usp=drive_link)|
+|KITTI_Eigen (L)| 0.048 | 0.137 | 2.026 | 0.979 | 0.998 | 0.999 |[[Google]](https://drive.google.com/file/d/1UF4YZEmGs0Kxoyck3IsAm5KddbDE4UUF/view?usp=drive_link)|
 
 | Model | SILog | Abs Rel | Sq Rel | iRMSE |
 | ------------ | :---: | :---: | :---: | :---: |
