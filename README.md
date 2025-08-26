@@ -14,7 +14,7 @@
 
 <div>
     <h4 align="center">
-        • <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046" target='_blank'>IEEE TMM (2025)</a> •
+        • <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6046" target='_blank'>IEEE TMM 2025</a> •
     </h4>
 </div>
 
@@ -90,3 +90,6 @@ Evaluate the KITTI_Eigen model:
 python sade/eval.py configs/arguments_eval_kittieigen.txt
 ```
 
+## Acknowledgement
+
+Our code is based on the implementation of [NeWCRFs](https://github.com/aliyun/NeWCRFs), [BTS](https://github.com/cleinc/bts) and [IEBins](https://github.com/ShuweiShao/IEBins/tree/main). We thank their excellent works.
