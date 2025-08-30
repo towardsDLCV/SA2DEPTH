@@ -21,6 +21,7 @@
 ## Abstract
 
 <div style="text-align:center">
+<img src="assets/teaser.png"  width="80%" height="80%">
 </div>
 
 </div>
