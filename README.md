@@ -27,8 +27,6 @@
 
 >The challenges in single-image depth prediction (SIDP) are mainly due to the lack of smooth depth ground truth and the presence of irregular and complex objects. While window-based attention mechanisms, which balance long-range dependency capture with computational efficiency by processing elements within a fixed grid, have advanced SIDP research, they are limited by a constrained search range. This limitation can impede smooth depth estimation in irregularity and complexity. To address these challenges, we propose a novel attention mechanism that selectively identifies and aggregates only the most relevant information. Our approach enables flexible and efficient exploration by using data-dependent movable offsets to select substantial tokens and designating them as key-value pairs. Furthermore, we overcome the issue of small softmax values in traditional attention mechanisms through score-based grouping with top-k selection. Our feed-forward network, which incorporates a gating mechanism and grouped convolutions with varying cardinalities, refines features before passing them to subsequent layers, allowing for targeted focus on input features. Finally, we utilize feature maps from hierarchical decoders to estimate bin centers and per-pixel probability distributions. We introduce a 4-way selective scanning technique to aggregate these perpixel probability distributions smoothly, resulting in a dense and continuous depth map. The proposed network, named selective attention and selective aggregate depth (SA<sub>2</sub>Depth), demonstrates state-of-the-art performance across multiple datasets compared to previous methods.
 
-</div>
-
 ## Installation
 - Creating a conda virtual environment and install packages
 ```bash
