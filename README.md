@@ -64,28 +64,28 @@ You can prepare the datasets KITTI and NYUv2 according to [here](https://github.
 
 ## Training
 Training the NYUv2 model:
-```
+```python
 python sade/train.py configs/arguments_train_nyu.txt
 ```
 
 Training the KITTI_Eigen model:
-```
+```python
 python sade/train.py configs/arguments_train_kittieigen.txt
 ```
 
 ## Evaluation
 Evaluate the NYUv2 model:
-```
+```python
 python sade/eval.py configs/arguments_eval_nyu.txt
 ```
 
 Evaluate the NYUv2 model on the SUN RGB-D dataset:
-```
+```python
 python sade/eval_sun.py configs/arguments_eval_sun.txt
 ```
 
 Evaluate the KITTI_Eigen model:
-```
+```python
 python sade/eval.py configs/arguments_eval_kittieigen.txt
 ```
 
@@ -104,6 +104,13 @@ python sade/eval.py configs/arguments_eval_kittieigen.txt
 | Model | Abs Rel | RMSE | a1 | a2 |
 | ------------ | :---: | :---: | :---: | :---: |
 |DIML-CVD | 0.162 | 4.149 | 0.810 | 0.939 |
+
+## Citation
+If you find our work useful, please consider citing:
+
+```tex
+coming soon
+```
 
 ## Acknowledgement
 
